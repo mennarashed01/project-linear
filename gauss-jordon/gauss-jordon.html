@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrix Solver - Gauss-Jordan Elimination</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Matrix Solver - Gauss-Jordan Elimination</h1>
+
+        <div id="input-section" class="input-section">
+            <label for="rows">Number of Rows:</label>
+            <input type="number" id="rows" min="2" value="3">
+
+            <label for="columns">Number of Columns:</label>
+            <input type="number" id="columns" min="2" value="4">
+
+            <button onclick="createMatrixInput()">Next</button>
+        </div>
+
+        <div id="matrix-input" class="hidden"></div>
+        <button id="solve-button" class="hidden" onclick="solveMatrix()">Solve Matrix</button>
+
+        <div id="output" class="hidden"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

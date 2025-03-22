@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(135deg, #00796b, #004d40);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 850px;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #004d40;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-section label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #004d40;
+}
+
+.input-section input {
+    margin-bottom: 15px;
+    padding: 8px 10px;
+    font-size: 16px;
+    width: 140px;
+    text-align: center;
+    border: 2px solid #b2dfdb;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.input-section input:focus {
+    outline: none;
+    border-color: #00796b;
+    box-shadow: 0 0 4px #00796b;
+}
+
+button {
+    background-color: #00796b;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #004d40;
+    transform: scale(1.05);
+}
+
+#matrix-input table {
+    margin: 20px 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#matrix-input td {
+    padding: 10px;
+}
+
+#matrix-input input {
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.output-table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.output-table tr:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+.output-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.step-description {
+    font-weight: bold;
+    color: #004d40;
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.solution-description {
+    font-size: 18px;
+    color: #00796b;
+    font-weight: bold;
+    margin-top: 15px;
+}

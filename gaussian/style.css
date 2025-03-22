@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #e3f2fd;
+    /* Light blue background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #1976d2;
+    /* Blue color for headings */
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-section label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.input-section input {
+    margin-bottom: 15px;
+    padding: 8px;
+    font-size: 16px;
+    width: 120px;
+    text-align: center;
+}
+
+button {
+    background-color: #1976d2;
+    /* Blue button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #1565c0;
+    /* Darker blue for hover */
+}
+
+#matrix-input table {
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+
+#matrix-input input {
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.step-description {
+    font-weight: bold;
+    color: #1976d2;
+    /* Blue color for steps */
+}
+
+.hidden {
+    display: none;
+}
+
+.output-table {
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.output-table td {
+    border: 1px solid #ddd;
+    padding: 5px;
+    text-align: center;
+}
+
+.solution-type {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1976d2;
+    /* Blue for solution type */
+}
+
+.solution-description {
+    font-size: 18px;
+    color: #1976d2;
+}
